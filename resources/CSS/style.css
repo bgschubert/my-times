@@ -1,3 +1,4 @@
+/*Page Header*/
 header{
   display: flex;
   font-family: Verdana;
@@ -7,6 +8,7 @@ header{
   border-bottom: 1px solid black;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: nowrap;
 }
 
 .logo{
@@ -25,10 +27,15 @@ header{
 nav{
 display: flex;
 justify-content: flex-end;
+align-content: space-between;
+}
+
+span{
+  margin: 0 10px;
 }
 
 a{
   color: black;
-
-
 }
+
+/*End Page Header*/
