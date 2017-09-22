@@ -13,6 +13,7 @@ header{
   position: fixed;
   z-index: 1;
   background-color: white;
+  top: 0;
 }
 
 .logo{
@@ -20,7 +21,6 @@ header{
   justify-content: flex-start;
   align-items: center;
   padding-left: 40px;
-  border: 1px solid black;
 }
 
 .logo span{
@@ -45,6 +45,7 @@ nav a{
   position: relative;
   top: 120px;
   justify-content: center;
+  margin-bottom: 200px;
 }
 
 .large-column{
@@ -74,7 +75,6 @@ nav a{
 .img-content{
   background-image: url("../images/main-story.png");
 }
-
 
 .news-story{
   display: flex;
@@ -138,4 +138,46 @@ padding: 15px 15px;
 
 .cats{
   background-image: url("../images/cat-ceo.png");
+}
+
+/*End Page Body*/
+
+footer{
+  display: flex;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 300px;
+  align-items: center;
+  margin: auto;
+}
+
+footer .sitename{
+  display: inline-block;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-right: 20px;
+}
+
+footer nav{
+  display: inline-block;
+  padding-left: 20px;
+  border-left: 2px solid white;
+}
+
+
+nav span{
+  display: inline-block;
+  padding: 10px 10px;
+}
+
+.copyright{
+  display: block;
+  text-align: center;
 }
